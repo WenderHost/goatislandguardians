@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f94d006186927b44c95205b7f1aa30db",
+    "content-hash": "913631c600c67684c8ccdf013205e17a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1209,6 +1209,24 @@
             },
             "description": "Shield your site from cyberattacks and prevent security vulnerabilities. The only security plugin you need for a solid foundation.",
             "homepage": "https://solidwp.com/products/security"
+        },
+        {
+            "name": "wpackagist-plugin/disable-gutenberg",
+            "version": "3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-gutenberg/",
+                "reference": "tags/3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.3.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-gutenberg/"
         },
         {
             "name": "wpackagist-plugin/elementor",
