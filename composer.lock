@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "807176dcb6e9ff534ea00301ca8d9d9f",
+    "content-hash": "04f98416004cb4065a77b160c3758b78",
     "packages": [
         {
             "name": "composer/installers",
@@ -1171,11 +1171,11 @@
         },
         {
             "name": "wenmark/gravityforms",
-            "version": "2.7.17.1",
+            "version": "2.8.18",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.7.17.1",
-                "shasum": "83cb662666d4d04bef1c836ea9c84a5ffda8f505"
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.8.18",
+                "shasum": "8a6af0d036ec8ba8ffccbe9475fac00e84822550"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1299,15 +1299,15 @@
         },
         {
             "name": "wpackagist-theme/hello-elementor",
-            "version": "2.9.0",
+            "version": "3.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/hello-elementor/",
-                "reference": "2.9.0"
+                "reference": "3.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.9.0.zip"
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.3.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
