@@ -17,7 +17,12 @@
     }
   ],
   "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+    "bedrock",
+    "composer",
+    "roots",
+    "wordpress",
+    "wp",
+    "wp-config"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
@@ -27,12 +32,17 @@
     "0": {
       "type": "composer",
       "url": "https://wpackagist.org",
-      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
     },
     "1": {
       "type": "composer",
       "url": "https://packages.wenmarkdigital.com/satispress/",
-      "only": ["wenmark/*"]
+      "only": [
+        "wenmark/*"
+      ]
     },
     "2": {
       "type": "composer",
@@ -48,7 +58,7 @@
     "roots/bedrock-disallow-indexing": "^2.0",
     "roots/wordpress": "^6",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.1.0",
+    "roots/wp-password-bcrypt": "1.2.0",
     "wpackagist-theme/twentytwentyfour": "^1.0",
     "lukasbesch/bedrock-plugin-disabler": "^1.4",
     "wpackagist-plugin/spinupwp": "^1.5",
@@ -78,9 +88,15 @@
   "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   },
