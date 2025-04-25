@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77ec32d879924df7ec6d1d94168b5464",
+    "content-hash": "fc864c67362d8bced8028f6265cf1674",
     "packages": [
         {
             "name": "composer/installers",
@@ -1151,6 +1151,27 @@
                 }
             ],
             "time": "2024-07-20T21:52:34+00:00"
+        },
+        {
+            "name": "wenmark/analyticswp",
+            "version": "2.1.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/analyticswp/2.1.5",
+                "shasum": "780158176846b87a2839093da94badbd3db6ecb5"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Solid Plugins",
+                    "homepage": "https://www.analyticswp.com/"
+                }
+            ],
+            "description": "AnalyticsWP. Analytics for WordPress.",
+            "homepage": "https://www.analyticswp.com/"
         },
         {
             "name": "wenmark/elementor-pro",

@@ -71,7 +71,8 @@
     "wenmark/ithemes-security-pro": "^8.2",
     "wpackagist-plugin/disable-gutenberg": "^3.1",
     "wpackagist-plugin/autodescription": "^5.0",
-    "wpackagist-plugin/disable-comments": "^2.4"
+    "wpackagist-plugin/disable-comments": "^2.4",
+    "wenmark/analyticswp": "^2.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
