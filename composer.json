@@ -75,7 +75,7 @@
     "wenmark/analyticswp": "^2.1"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.7.1",
+    "squizlabs/php_codesniffer": "^4.0.0",
     "roave/security-advisories": "dev-latest"
   },
   "config": {
