@@ -63,7 +63,7 @@
     "lukasbesch/bedrock-plugin-disabler": "^1.4",
     "wpackagist-plugin/spinupwp": "^1.5",
     "wpackagist-plugin/limit-login-attempts-reloaded": "^2.25",
-    "wenmark/elementor-pro": "^3.18",
+    "wenmark/elementor-pro": "^4.0",
     "wpackagist-plugin/elementor": "^3.18",
     "wpackagist-theme/hello-elementor": "3.1.1",
     "wenmark/gravityforms": "2.8.18",
